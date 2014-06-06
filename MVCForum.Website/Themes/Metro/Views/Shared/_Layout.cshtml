@@ -58,7 +58,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="brand" href="@Url.Action("Index", "Home")">
+                <a class="brand" href="@Url.Action("Index", "MainSite")">
                     <img src="@Url.Content(themePath + "/Content/Images/admin-n3o-logo.png")" alt="" />
                 </a>
                 <div class="nav-collapse collapse">
@@ -80,11 +80,12 @@
                             }
                             <li><a href="@Url.Action("LogOn", "Members")">@Html.LanguageString("Layout.Nav.Logon")</a></li>
                         }
-                        @if (User.IsInRole(AppConstants.AdminRoleName))
+@*                        @if (User.IsInRole(AppConstants.AdminRoleName))
                         {
                             <li><a href="@Url.Action("Index", "Admin", new { area = "Admin" }, null)">@Html.LanguageString("Layout.Nav.Admin")</a></li>
-                        }
-                        <li><a href="http://www.mvcforum.com">Main Website</a></li>
+                        }*@
+                        <li><a href="@Url.Action("Index", "Admin", new { area = "Admin" }, null)">@Html.LanguageString("Layout.Nav.Admin")</a></li>
+@*                        <li><a href="http://www.mvcforum.com">Main Website</a></li>*@
                     </ul>
                 </div>
             </div>
@@ -99,7 +100,7 @@
             <div class="span9">
                 
                 @* ### Remove ME - Not needed, just for our forum ### *@
-                @Html.Partial("_DocumentationBlock")
+                @*@Html.Partial("_DocumentationBlock")*@
                 @* ### Remove ME - Not needed, just for our forum ### *@
 
                 @RenderBody()

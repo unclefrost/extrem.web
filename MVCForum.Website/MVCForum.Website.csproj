@@ -304,7 +304,6 @@
     <Compile Include="Controllers\ClosedController.cs" />
     <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\InstallController.cs" />
-    <Compile Include="Controllers\MainSiteController.cs" />
     <Compile Include="Controllers\PollController.cs" />
     <Compile Include="Controllers\PrivateMessageController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
@@ -1166,7 +1165,6 @@
     <Content Include="Scripts\tinymce\skins\lightgray\fonts\icomoon.eot" />
     <Content Include="Scripts\tinymce\langs\readme.md" />
     <Content Include="Views\Shared\_DocumentationBlock.cshtml" />
-    <Content Include="Views\MainSite\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Themes\Dark\Views\Shared\" />

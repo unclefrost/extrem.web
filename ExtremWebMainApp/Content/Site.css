@@ -1,28 +1,90 @@
-﻿ul#HeaderNavBar {
+﻿html {
+    font-size: 100%;
+}
+
+.footer-widgets{ 
+    background-color:#222;
+    color:#c8c8c8;
+    clear:both;
+    font-size:1.1em;
+}
+
+.footer-widgets .widget {
+    margin-bottom: 3rem;
+    word-wrap: break-word;
+}
+
+.footer-widgets .widget-title {
+    color: #FFF;
+}
+
+.footer-widgets .wrap {
+    overflow:hidden;
+    padding: 3rem 0rem 0rem;
+}
+
+.footer-widgets-1 {
+    width:30%;
+}
+
+.footer-widgets-1, .footer-widgets-2 {
+    float:left;
+}
+
+.footer-widgets-1, .footer-widgets-2, .footer-widgets-3 {
+    padding:0px 2.8%;
+}
+
+section {
+    display:block;
+}
+
+.widget-title{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: normal;
+    line-height: 1.25;
+    margin: 0px 0px 1rem;
+    padding: 0px;
+}
+
+.footer-widgets-2 {
+    width:30%;
+}
+
+.textwidget p {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 0px 0px 2.4rem;
+    padding: 0px;
+}
+
+.footer-widgets-3 {
+    width: 20%;
+    float:right;
+}
+
+ol, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-widgets li {
+    background: url('/Images/icon-li-footer.png') no-repeat scroll 0px 7px / 8px 8px transparent;
     list-style-type: none;
-    display: inline;
+    margin-bottom: 0.6rem;
+    padding: 0px 0px 0.6rem 1.6rem;
 }
 
-    ul#HeaderNavBar > li {
-        display: inline;
+    .footer-widgets li > a {
+        text-decoration: none;
+        color: #00ffff;
     }
-
-        ul#HeaderNavBar > li {
-            color:#FFF;
-        }
-
-div.FooterWrapper , p{
-    background-color:#000;
-    color:#FFF;
-}
-
-div.FooterWrapper > div {
-    width:33%;
-    display:inline-block;
-    border-color:red;
-}
-
-/*Just for loolz*/
-div.MainPanel, div.FooterWrapper{
-        border:1px solid #F00;
-}

@@ -17,28 +17,58 @@
 
 
     <div class="MainPanel">
-        <h1>Some Important Text</h1>
+        <h1>Some Important Text
+        </h1>
     </div>
 
     <footer>
-        <div class="FooterWrapper">
-            <div id="PartnersInfo">
-                <p>Some Info</p>
+        <div class="footer-widgets">
+        <div class="wrap">
+            <div class="footer-widgets-1">
+                <section id="text-1" class="widget widget_text" >
+                    <div class="widget-wrap">
+                        <h4 class="widget-title">
+                            Про Клуб
+                        </h4>
+                        <div class="textwidget">
+                            Gönne dir hsfdhghdfghdfhdfhfgsdhfgdshjfg sdhfg hjsda gfhjasdgfhjdgas hfjdshf hdasgf hgdsh fghasdgfhsdhfsdhfhsddhfs 
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div id="SomePictures">
-                <p>Some Pictures</p>
+            <div class="footer-widgets-2">
+                <section id="text-2" class="widget widget_text">
+                    <div class="widget-wrap">
+                        <h4 class="widget-title">
+                            Партнери
+                        </h4>
+                        <div class="textwidget">                            
+                                <a href="http://gorgany.com" textdecoration ="none">
+                                <img src="http://extrem.lviv.ua/images/stories/icons/banner_240x120.gif"></img>
+                                </a>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div id="NavigationMenu">
-                <nav>
-                    <ul id="FooterNavBar">
-                        <li>@Html.ActionLink("Item1", "ActionName", "ControllerName")</li>
-                        <li>@Html.ActionLink("Item2", "ActionName", "ControllerName")</li>
-                        <li>@Html.ActionLink("Item3", "ActionName", "ControllerName")</li>
-                        <li>@Html.ActionLink("Item4", "ActionName", "ControllerName")</li>
-                        <li>@Html.ActionLink("Item5", "ActionName", "ControllerName")</li>
+            <div class="footer-widgets-3">
+                <section id="nav-menu" class="widget widget-nav-menu">
+                    <div class="widget-wrap">
+                    <h4 class="widget-title">
+                        Навігація
+                    </h4>
+                    <div class="menu-first-menu-container">
+                    <ul id="menu-first-menu" class="menu">
+                        <li>@Html.ActionLink("Керівництво клубу", "ClubLeadership", "FooterNavigation")</li>
+                        <li>@Html.ActionLink("Наші координати", "OurCoordinates", "FooterNavigation")</li>
+                        <li>@Html.ActionLink("Досягнення", "Achievements", "FooterNavigation")</li>
+                        <li>@Html.ActionLink("Статус клубу", "ClubStatus", "FooterNavigation")</li>
+                        <li>@Html.ActionLink("Рішення керівних органів клубу", "LeadershipDecision", "FooterNavigation")</li>
                     </ul>
-                </nav>
+                </div>
+                </div>
+                </section>
             </div>
+        </div>
         </div>
     </footer>
 </body>
